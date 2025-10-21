@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ucapan Semangat</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            height: 100vh;
+            text-align: center;
+            overflow: hidden;
+            animation: backgroundAnimation 10s infinite alternate;
+            padding: 20px;
+        }
+
+        @keyframes backgroundAnimation {
+            0% { background: linear-gradient(to right, #ff7e5f, #feb47b); }
+            50% { background: linear-gradient(to right, #ff6a88, #ffcc70); }
+            100% { background: linear-gradient(to right, #ff7e5f, #feb47b); }
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 1s ease-in-out;
+            backdrop-filter: blur(10px);
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            overflow: auto;
+            max-height: 80vh;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            animation: slideIn 1s ease-in-out;
+        }
+
+        .quote {
+            margin: 15px 0;
+            font-size: 1.5em;
+            opacity: 0;
+            animation: fadeInUp 0.5s forwards;
+        }
+
+        .quote:nth-child(1) { animation-delay: 0.5s; }
+        .quote:nth-child(2) { animation-delay: 1s; }
+        .quote:nth-child(3) { animation-delay: 1.5s; }
+        .quote:nth-child(4) { animation-delay: 2s; }
+        .quote:nth-child(5) { animation-delay: 2.5s; }
+        .quote:nth-child(6) { animation-delay: 3s; }
+        .quote:nth-child(7) { animation-delay: 3.5s; }
+        .quote:nth-child(8) { animation-delay: 4s; }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 1.2em;
+            opacity: 0;
+            animation: fadeInUp 0.5s forwards;
+            animation-delay: 4.5s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-50px); }
+            to { transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .emoji {
+            display: inline-block;
+            animation: bounce 1s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .image-container img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            margin: 0 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Semangat Ya Nanti Di Malaysia Nya😊💖</h1>
+        <div class="quote">
+            <p>"Aku tau ini Kecepatan tapi gapapa aku bilang sekrang,aku cuman nitip pesan aja gapapakan. <span class="emoji">🌟</span>"</p>
+        </div>
+        <div class="quote">
+            <p>"Pesankan misalnya dah mo pergi selamat sampai tujuan dengan sehat dan baik" saja . <span class="emoji">🌈</span>"</p>
+        </div>
+        <div class="quote">
+            <p>"Dan jaga Diri baik-baik disana dan semoga hari" kau nanti di sana sehat selalu<span class="emoji">💪</span>"</p>
+        </div>
+        <div class="quote">
+            <p>"Kejar terus apa yang kau impikan dengan semangat kau yang membara aku tau kalo kau itu wanita yang kuat. <span class="emoji">💕</span>"</p>
+        </div>
+        <div class="quote">
+            <p>"Tapi terkadang pasti ada masalah yang buat kau merasa sedih dan emosi dan jikalau dunia sedang jahat atau ga berpihak <span class="emoji">👣</span>"</p>
+        </div>
+        <div class="quote">
+            <p>"Kau boleh cerita dan luapkan semua rasa yang ga enak di hati kau ama ku aku siap jadi tempatmu untuk cerita <span class="emoji">🌸</span>"</p>
+        </div>
+        <div class="quote">
+            <p>"Ingatt Aku akan selalu mendukung dan mendoakan kau dan aku akan selalu berada di samping kau dimana pun itu okeyy <span class="emoji">✨</span>"</p>
+        </div>
+        <div class="quote">
+            <p>"Maaf kalo terkadang aku ngeselin dan buat kau marah teruss tapi percaya kalo kau satu" nya pemilik hatiku dan kau adalah dunia ku <span class="emoji">🌟</span>"</p>
+        </div>
+        <div class="footer">
+            <p>Aku tidak datang karena penasaran tapi aku datang emang bener" tulus mau dapatin kau bukan sebagai persinggahan tapi sebagai tujuan akhir dalam semua cerita yang ku susun... <span class="emoji">😊</span></p>
+        </div>
+        <div class="footer">
+            <p>Ada banyak hal dan sesuatu yang ingin kubilang lagi tapi kurasa itu enaknya dibilang di telepon atau secara langsung </p>
+        </div>
+        <div class="footer">
+            <p>MAKASIH YAA UDAH MAU LIHAT DAN BUKA ISI PESAN WEB INI <span class="emoji">😊</span></p>
+        </div>
+        <div class="footer">
+            <p>I LOVE YOU MY WORLD <span class="emoji">💞💖</span></p>
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="my_honey.jpg" alt="Gambar 1">
+        <img src="my_honey3.jpg" alt="Gambar 2">
+        <img src="my_honey5.jpg" alt="Gambar 3">
+    </div>
+</body>
+</html>
